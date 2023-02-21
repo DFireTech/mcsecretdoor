@@ -5,7 +5,7 @@ local pInput = io.read()
 repeat
     if pInput ~= password then
             io.write("Incorrect. Please try again")
-    end
+end
 until (pInput==password)
 redstone.setOutput("back",true)
 sleep(10)
